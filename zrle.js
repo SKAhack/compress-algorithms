@@ -75,9 +75,9 @@ ZRLE.decode = function(data){
       }
       i += 1;
       continue;
-    } else {
-      res.push(data[i] - 1);
     }
+
+    res.push(data[i] - 1);
   }
 
   return res;
