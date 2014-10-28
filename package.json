@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   "dependencies": {
+    "heap": "^0.2.5",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
